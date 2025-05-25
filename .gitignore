@@ -172,3 +172,26 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+# --------- Extras para proyectos de Ciencia de Datos ---------
+# Datasets (mantén solo ejemplos pequeños en el repo)
+data/raw/
+data/processed/
+
+# Modelos serializados
+*.joblib
+*.pkl
+*.h5
+*.sav
+
+# Archivos de métricas generados por MLflow, TensorBoard, etc.
+mlruns/
+tensorboard/
+
+# Reportes HTML exportados (si los sirves con GitHub Pages, déjalos fuera)
+docs/*.html
+
+# Entornos y dependencias locales
+.env
+*.env
+*.egg-info/
+
